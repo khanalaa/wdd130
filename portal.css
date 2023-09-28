@@ -1,0 +1,24 @@
+a{
+    background-color: rgb(225, 240, 19);
+    color: rgb(71,68,43);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    background-color: bisque;
+}
+
+.background{
+    background-color: blanchedalmond;
+}
+ 
+#primary{
+    background-color: black;
+}
+
+.new:hover{
+    background-color: rgba(218, 110, 39, 0.857);
+}
