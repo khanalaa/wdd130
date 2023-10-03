@@ -8,17 +8,48 @@ a{
 
 nav{
     display: flex;
-    background-color: bisque;
+    justify-content: center;
+    background-color: black;
 }
 
 .background{
     background-color: blanchedalmond;
 }
  
-#primary{
+#content{
+    background-color: white;
+    max-width: 1600px;
+    
+}
+/* #primary{
     background-color: black;
+} */
+
+a:hover{
+    background-color: rgba(218, 110, 39, 0.857);
+    color: white;
 }
 
-.new:hover{
-    background-color: rgba(218, 110, 39, 0.857);
+img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+p{
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(225, 240, 19);
+    color: rgb(71,68,43);
+    text-decoration: none;
 }
