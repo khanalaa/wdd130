@@ -1,0 +1,21 @@
+.content{
+    background-color: pink;
+    text-align: center;
+}
+
+img{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+#primary{
+    color: white;
+}
+
+header{
+    font-size: 40px;
+}
+header:hover{
+    color: black;
+}
