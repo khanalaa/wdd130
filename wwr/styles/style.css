@@ -58,7 +58,8 @@ h4 {
   color: rgba(237, 243, 233, 0.7);
 }
 
-.logo, .icon {
+.logo,
+.icon {
   width: 80px;
 }
 
