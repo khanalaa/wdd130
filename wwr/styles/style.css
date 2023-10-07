@@ -9,6 +9,10 @@ header {
   background-color: rgba(20, 30, 13, 0.7);
 }
 
+#content{
+  max-width: 1600px;
+}
+
 .book,
 .join {
   background-color: rgb(210, 171, 107);
