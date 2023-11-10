@@ -1,0 +1,61 @@
+@media screen and (max-width: 800px){
+    h3{
+        color: blue;
+        text-align: center;
+    }
+    p{
+        font-size: 25px;
+        color: rgb(159, 136, 106);
+    }
+    h1{
+        font-size: 35px;
+        padding: 0%;
+    }
+    #pic{
+        width: 100%;
+    }
+
+    #text{
+        text-align: center;
+    }
+
+    #new{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        color: white;
+        font-size: 45px;
+        text-align: center;
+
+    }
+
+    sub{
+        font-size: 20px;
+    }
+    #gri{
+        grid-column: 1/2;
+        grid-row: 1/7;
+        border: 5px;
+        margin-right: 2px;
+        background-color: rgb(14, 66, 124);
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #view{
+        grid-column: 2/3;
+        grid-row: 1/7;
+        margin-right: 2px;
+        background-color: rgb(14, 66, 124);
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #comment{
+        grid-row: 1/7;
+        grid-column: 3/4;
+        background-color: rgb(14, 66, 124);
+        justify-content: center;
+        justify-items: center;
+    }
+
+}
