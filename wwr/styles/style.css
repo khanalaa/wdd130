@@ -225,32 +225,81 @@ main section img {
   font-size: 2em;
   margin-top: 10px;
   text-align: center;
-  color: #d9c2a3;
+  color: #fcfbfb;
+  padding: 30px;
 }
 
 #first-msg{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 4fr 4fr 1fr;
 }
 
 #sub-msg1{
-  grid-column: 1/2;
-  grid-row: 1/3;
+  background-color: rgba(20, 30, 13, 0.7);
+  color: #fcfbfb;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 30px;
 }
 
 #img1{
-  grid-column: 2/3;
-  grid-row: 1/3;
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
 
 #second-msg{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 4fr 4fr 1fr;
+  padding-bottom: 50px;
 }
 
+#sub-msg2{
+  background-color: rgba(20, 30, 13, 0.7);
+  color: #fcfbfb;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  padding: 30px;
+}
 
+#img2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: center;
+}
+
+.para{
+  color: #fcfbfb;
+  font-size: .9em;
+  padding: 60px;
+  margin: 20px;
+  justify-content: center;
+}
+
+#content-sub{
+  background-color: rgb(210, 171, 107);
+}
+
+.button-sub{
+  text-align: center;
+}
+
+.book-sub{
+  background-color: rgba(20, 30, 13, 0.7);
+  color: rgba(20, 30, 13, 0.7);
+  text-align: center;
+  font-size: 18px;
+  color: #fcfbfb;
+  text-decoration: none;
+  padding-top: 30px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.book-sub:hover{
+  background-color: black;
+  color: #fcfbfb;
+}
 
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
