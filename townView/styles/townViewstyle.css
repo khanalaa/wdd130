@@ -9,7 +9,7 @@ body {
   }
 
   header{
-    background-color: #422773;
+    background-color: #44599D;
     display: grid;
     grid-template-columns: 150px auto;
     padding: 8px;
@@ -64,5 +64,12 @@ body {
   }
 
   #hero-msg{
+    color: #44599D;
+  }
+
+  .para{
     color: #E9EBF8;
+    padding: 50px;
+    margin: 50px;
+    background-color: #44599D;
   }
