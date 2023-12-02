@@ -210,22 +210,16 @@ footer p{
   grid-column: 2/3;
   grid-row: 2/4;
   color: white;
-}
-
-#hero1-title h2{
-  justify-self: baseline;
-}
-
-#hero1-title h3{
-  justify-self: baseline;
+  padding-top: 50px;
 }
 
 #button-box1{
-  grid-area: 1 / 3 / span 3 / span 1;
+  grid-column: 3/4;
+  grid-row: 2/4;
   justify-self: center;
+  justify-items: center;
   align-self: flex-end;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .apply-floor{
@@ -389,4 +383,89 @@ footer p{
 
 .more-apply{
   text-align: center;
+}
+
+
+/* css for signup page */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 16px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.signupbutton{
+  display: block;
+  box-sizing: border-box;
+  height: 50px;
+  width: 300px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #201F1D;
+  border-radius: 5px;
+  color: #E9EBF8;
+}
+
+button.cancelbtn {
+  background-color: #aaa;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#signup-colorbox{
+  background-color: #44599D;
+  color: white;
+  font-size: 50px;
+  padding: 30px 0px 30px 40px;
+
+}
+
+
+@media screen and (max-width: 300px) {
+  span, .cancelbtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
