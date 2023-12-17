@@ -25,6 +25,7 @@ nav {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  align-items: center;
 }
 
 nav a {
@@ -89,6 +90,10 @@ nav a:hover {
   z-index: -1;
 }
 
+#hero-msg h2{
+  text-shadow: 2px 2px black;
+}
+
 #hero-msg {
   color: white;
   grid-column: 1/3;
@@ -120,6 +125,7 @@ nav a:hover {
   border: 2px solid white;
   text-align: left;
   transition: 0.5s ease;
+  border-radius: 10px;
 }
 
 .apply:hover {
@@ -221,6 +227,7 @@ footer p {
   justify-items: center;
   align-self: flex-end;
   padding-bottom: 40px;
+  border-radius: 5px;
 }
 
 .apply-floor {
@@ -232,6 +239,8 @@ footer p {
   color: white;
   background-color: #44599d;
   border: 2px solid white;
+  transition: 0.5s ease;
+  border-radius: 10px;
 }
 
 .apply-floor:hover {
@@ -245,9 +254,10 @@ footer p {
   grid-row: 4/8;
   grid-column: 2/3;
   width: 100%;
-  height: 400px;
+  height: 100%;
   border: white 7px solid;
   border-right: none;
+  box-sizing: border-box;
 }
 
 #hero1-msg {
@@ -276,6 +286,8 @@ footer p {
   grid-column: 3/4;
   grid-row: 1/2;
   width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 #msg1 {
@@ -323,6 +335,8 @@ footer p {
   color: white;
   background-color: #44599d;
   border: 2px solid white;
+  transition: 0.5s ease;
+  border-radius: 10px;
 }
 
 .apply-more:hover {
@@ -466,5 +480,94 @@ button:hover {
     display: block;
     width: 100%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #hero-img{
+    height: auto;
+  }
+  
+  #hero1 {
+    display: grid;
+    grid-template-rows: 50px repeat(6, 1fr);
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+  }
+
+  #hero1-img{
+    grid-row: 4/8;
+    grid-column: 2/4;
+    width: 100%;
+    height: 100%;
+    border: white 7px solid;
+    box-sizing: border-box;
+  }
+
+  #hero1-msg{
+    grid-row: 9/10;
+    grid-column: 2/4;
+    border: white 7px solid;
+    box-sizing: border-box;
+    border-top: none;
+  }
+
+  #door{
+    grid-row: 1/2;
+    grid-column: 2/4;
+    border: white 7px solid;
+    box-sizing: border-box;
+  }
+
+  #msg1{
+    grid-row: 2/3;
+    grid-column: 2/4;
+    border: white 7px solid;
+    box-sizing: border-box;
+    border-top: none;
+  }
+
+  #hero2-img{
+    grid-row: 4/8;
+    grid-column: 2/4;
+    width: 100%;
+    height: 100%;
+    border: white 7px solid;
+    box-sizing: border-box;
+  }
+
+  #hero2-msg{
+    grid-row: 9/10;
+    grid-column: 2/4;
+    border: white 7px solid;
+    box-sizing: border-box;
+  }
+
+  #more-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr) ;
+    grid-template-rows: repeat(6,1fr) ;
+  }
+
+  #more-msg{
+    grid-column: 2/6;
+    grid-row: 4/6;
+    border: white 7px solid;
+    box-sizing: border-box;
+    border-top: none;
+  }
+
+  #family{
+    grid-column: 2/6;
+    grid-row: 2/4;
+    border: white 7px solid;
+    box-sizing: border-box;
+  }
+
+  nav{
+    flex-direction: column;
+  }
+
+  footer{
+    flex-direction: column;
   }
 }
